@@ -1,4 +1,61 @@
-#welcome {
-    font-size: 2em;
-    background-color: rgb(65, 206, 83);
+.welcome{
+    font-size: 3em;
+    background-image: linear-gradient(to right, rgb(177, 177, 103), rgb(221, 144, 211));
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    border-radius: 10px;
 }
+.green-color{
+    color: rgb(5, 85, 5);
+}
+.centre{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    margin-top: 10px;
+
+}
+.skip-diet {
+    
+    font-size: 2em;
+    margin-top: 10%;   
+    color: gray;
+}
+.skip-diet p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 80px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.link-button{
+    background-image: linear-gradient(green , cyan);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 40px;
+    color: white;   
+}
+.background-img {
+    background-image: url(images/shapes/frame-3.jpg);
+    background-repeat: no-repeat;
+}
+.about-me{
+    margin-top: 200px;
+    margin-bottom: 10%;
+}
+.about-me h1 {
+    font-size: 2em;
+    padding-top: 10%;
+}
+.about-me p {
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 50px;
+
+}
+
