@@ -44,11 +44,13 @@
     background-image: url(images/shapes/frame-3.jpg);
     background-repeat: no-repeat;
     padding-top: 5%;
+    border-radius: 20px;
 }
 .about-me{
-    margin-top: 200px;
-    margin-bottom: 10%;
+    margin-top: 100px;
+    margin-bottom: 8%;
 }
+
 .about-me h1 {
     font-size: 2em;
     padding-top: 10%;
@@ -75,4 +77,44 @@
 }
 .my-recipes p {
     font-size: 20px;
+}
+.size-management img{
+    width: 80%;   
+}
+
+.box-shadow {
+    border: 1px solid rgb(255, 255, 255);
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    box-shadow: 10px 10px 40px black;
+    border-radius: 20px;
+}
+.recipe {
+    margin-left: 50px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+.info {
+    width: 20%;
+    padding-left: 10%;
+    text-align: center;
+}
+.info h1 {
+    font-size: 2em;
+}
+.border-shadow {
+    border: 1px solid white;
+    box-shadow: 1px 1px 25px black;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 230px;
+    padding-right: 230px;
+    text-align: center;
+    margin-bottom: 100px;
+
 }
